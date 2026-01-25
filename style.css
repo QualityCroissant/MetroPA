@@ -5,6 +5,14 @@ body {
     font-family: "Roboto", serif;
 }
 
+h1 {
+    font-weight: bolder;
+}
+
+h2 {
+    font-weight: bold;
+}
+
 #logo_image {
     position: absolute;
     width: 10%;
