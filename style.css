@@ -6,16 +6,19 @@ body {
 }
 
 h1 {
+    padding: 0;
     font-weight: bolder;
 }
 
 h2 {
+    padding: 0;
     font-weight: bold;
 }
 
 #logo_image {
     position: absolute;
     width: 10%;
+    padding: 50px;
 }
 
 #top_header {
