@@ -76,7 +76,7 @@ article {
 
 .article_element:hover h4, .article_element:hover p {
     color:white;
-    transition: color 0.5s;
+    transition: color 0.3s;
 }
 
 .article_list .article_element:first-child {
