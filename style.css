@@ -97,6 +97,7 @@ article {
 .article_body {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .right_chevron {
