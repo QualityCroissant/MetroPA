@@ -53,10 +53,20 @@ article {
 .article_list {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 .article_element {
     background-color: red;
+    margin-left: 25px;
+}
+
+.article_list .article_element:first-child {
+    margin-left: 0px;
+}
+
+.article_thumbnail {
+    width: 100%;
 }
 
 #logo_image {
