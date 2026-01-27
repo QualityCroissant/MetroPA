@@ -76,7 +76,7 @@ article {
 
 .article_element:hover {
         padding: 5px;
-    background-color: #79BC1D;
+    background-color: #5E7C16;
     transition: background-color 0.3s, padding 0.3s;
 }
 
