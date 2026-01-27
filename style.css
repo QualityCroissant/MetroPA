@@ -50,6 +50,15 @@ article {
     padding: 25px;
 }
 
+.article_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article_element {
+    background-color: red;
+}
+
 #logo_image {
     position: absolute;
     width: 10%;
