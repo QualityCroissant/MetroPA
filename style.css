@@ -22,8 +22,6 @@ h2 {
 h3 {
     color: black;
     font-size: 22px;
-    margin-top: 20px;
-    margin-left: 25px;
     border-style: none none none solid;
     padding-left: 10px;
     border-width: 4px;
@@ -47,6 +45,8 @@ article {
 
     background-color: white;
     border-radius: 15px;
+
+    padding: 25px;
 }
 
 #logo_image {
