@@ -1,6 +1,8 @@
 body {
     margin: 0;
 
+    background-color: #2B2B2B;
+
     color: white;
     font-family: "Roboto", sans-serif;
 }
@@ -15,6 +17,36 @@ h2 {
     margin: 5px;
     font-weight: 700;
     font-size: 25px;
+}
+
+h3 {
+    color: black;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-style: none none none solid;
+    padding-left: 10px;
+    border-width: 4px;
+    border-color: #484CA4;
+}
+
+hr {
+    margin: 0;
+    border: 4px solid #5E7C16;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 40px;
+
+    background-color: white;
+    border-radius: 15px;
 }
 
 #logo_image {
