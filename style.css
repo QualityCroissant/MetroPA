@@ -62,14 +62,21 @@ article {
     padding: 25px;
 }
 
-.article_list {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
+.article_element {
+    border-radius: 5px;
+    margin-left: 25px;
+    transition: background-color 0.3s, padding 0.3s;
 }
 
-.article_element {
-    margin-left: 25px;
+.article_element:hover {
+    padding: 5px;
+    background-color: #79BC1D;
+    transition: background-color 0.3s, padding 0.3s;
+}
+
+.article_element:hover h4, .article_element:hover p {
+    color:white;
+    transition: color 0.5s;
 }
 
 .article_list .article_element:first-child {
@@ -78,6 +85,7 @@ article {
 
 .article_thumbnail {
     width: 100%;
+    border-radius: 5px;
 }
 
 #logo_image {
