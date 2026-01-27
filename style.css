@@ -20,6 +20,7 @@ h2 {
 }
 
 h3 {
+    margin: 0;
     color: black;
     font-size: 22px;
     border-style: none none none solid;
