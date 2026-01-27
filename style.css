@@ -1,5 +1,13 @@
+/*
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ */
+
 body {
     margin: 0;
+
+    background-color: #2B2B2B;
 
     color: white;
     font-family: "Roboto", sans-serif;
@@ -15,6 +23,91 @@ h2 {
     margin: 5px;
     font-weight: 700;
     font-size: 25px;
+}
+
+h3 {
+    margin: 0;
+    color: black;
+    font-size: 22px;
+    border-style: none none none solid;
+    padding-left: 10px;
+    border-width: 4px;
+    border-color: #484CA4;
+}
+
+h4 {
+    color: black;
+    font-size: 20px;
+    margin: 0;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+    border: 4px solid #5E7C16;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 40px;
+
+    background-color: white;
+    border-radius: 15px;
+
+    padding: 25px;
+}
+
+.article_list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.article_element {
+    border-radius: 5px;
+    margin-left: 25px;
+    transition: background-color 0.3s, padding 0.3s;
+}
+
+.article_element:hover {
+    padding: 5px;
+    background-color: #5E7C16;
+    transition: background-color 0.3s, padding 0.3s;
+}
+
+.article_element:hover h4, .article_element:hover p {
+    color:white;
+    transition: color 0.3s;
+}
+
+.article_list .article_element:first-child {
+    margin-left: 0px;
+}
+
+.article_thumbnail {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.article_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_chevron {
+    margin-right: 2px;
+    font-size: 50px;
 }
 
 #logo_image {
