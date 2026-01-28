@@ -115,15 +115,16 @@ article {
 .right_chevron {
     margin-right: 2px;
     font-size: 50px;
-    transition: color 0.3s;
 }
 
 .secondary_article_element .right_chevron {
     margin-right: 20px;
+    color: black;
+    transition: color 0.3s;
 }
 
 .secondary_article_element:hover .right_chevron {
-    color: black;
+    color: #5E7C16;
     transition: color 0.3s;
 }
 
@@ -139,14 +140,16 @@ article {
     border-radius: 5px;
 
     background-color: white;
-
-    border-style: none none none solid;
-    border-color: blue;
-    border-width: 50px;
     
     width: 100%;
     margin-left: 25px;    
     padding-left: 15px;
+}
+
+.article_icon {
+    font-family: "Noto Emoji", sans-serif;
+    background-color: #484CA4;
+    font-size: 24px;
 }
 
 #logo_image {
