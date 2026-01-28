@@ -13,15 +13,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.primary_section {
-    margin: 0;
-}
-
-.secondary_section {
-    margin: 0;
-    background-color: #2A3439;
-}
-
 h1 {
     margin: 5px;
     font-weight: 900;
