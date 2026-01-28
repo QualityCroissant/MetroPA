@@ -119,7 +119,7 @@ article {
 }
 
 .secondary_article_element:hover .right_chevron {
-    color: white;
+    color: black;
     transition: color 0.3s;
 }
 
