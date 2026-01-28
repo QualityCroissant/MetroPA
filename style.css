@@ -118,6 +118,10 @@ article {
     transition: color 0.3s;
 }
 
+.secondary_article_element .right_chevron {
+    margin-right: 20px;
+}
+
 .secondary_article_element:hover .right_chevron {
     color: black;
     transition: color 0.3s;
