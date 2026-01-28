@@ -44,6 +44,10 @@ h3 {
     border-color: #484CA4;
 }
 
+.secondary_article h3 {
+    color: white;
+}
+
 h4 {
     color: black;
     font-size: 20px;
@@ -99,7 +103,7 @@ article {
     transition: color 0.3s;
 }
 
-.article_list .article_element:first-child {
+.article_list .article_element:first-child, .article_list .secondary_article_element:first-child {
     margin-left: 0px;
 }
 
@@ -119,15 +123,30 @@ article {
     font-size: 50px;
 }
 
+.secondary_article {
+    padding: 0;
+    background-color: transparent;
+}
+
 .secondary_article_element {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
     border-radius: 5px;
-    box-shadow: 0 0 5px lightgrey;
+
+    background-color: white;
 
     border-style: none none none solid;
-    border-width: 10px;
+    border-color: blue;
+    border-width: 50px;
+    
+    width: 100%;
+    margin-left: 25px;    
+    padding-left: 15px;
+}
+
+.secondary_article_element:hover {
+    padding: 5px;
 }
 
 #logo_image {
