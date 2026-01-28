@@ -115,6 +115,12 @@ article {
 .right_chevron {
     margin-right: 2px;
     font-size: 50px;
+    transition: color 0.3s;
+}
+
+.secondary_article_element:hover .right_chevron {
+    color: white;
+    transition: color 0.3s;
 }
 
 .secondary_article {
@@ -137,10 +143,6 @@ article {
     width: 100%;
     margin-left: 25px;    
     padding-left: 15px;
-}
-
-.secondary_article_element:hover {
-    padding: 5px;
 }
 
 #logo_image {
