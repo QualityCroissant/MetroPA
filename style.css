@@ -58,6 +58,7 @@ p {
     color: black;
     font-size: 15px;
     margin: 0;
+    transition: color 0.3s;
 }
 
 hr {
