@@ -119,20 +119,32 @@ article {
     align-items: center;
 }
 
-.right_chevron {
+.secondary_article_element:hover h4 {
+    color: #5E7C16;
+    transition: color 0.3s;
+}
+
+.article_element .right_chevron {
     margin-right: 2px;
-    font-size: 50px;
+}
+
+.article_element .right_chevron path {
+    fill: white;
 }
 
 .secondary_article_element .right_chevron {
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-right: 20px;
-    color: black;
-    transition: color 0.3s;
 }
 
-.secondary_article_element:hover .right_chevron, .secondary_article_element:hover h4 {
-    color: #5E7C16;
-    transition: color 0.3s;
+.seconary_article_element .right_chevron path {
+    transition: fill 0.3s;
+}
+
+.secondary_article_element:hover .right_chevron path {
+    fill: #5E7C16;
+    transition: fill 0.3s;
 }
 
 .secondary_article {
