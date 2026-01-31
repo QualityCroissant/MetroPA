@@ -13,6 +13,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 h1 {
     margin: 5px;
     font-weight: 900;
@@ -46,12 +51,14 @@ h4 {
     color: black;
     font-size: 20px;
     margin: 0;
+    transition: color 0.3s
 }
 
 p {
     color: black;
     font-size: 15px;
     margin: 0;
+    transition: color 0.3s;
 }
 
 hr {
@@ -112,20 +119,32 @@ article {
     align-items: center;
 }
 
-.right_chevron {
+.secondary_article_element:hover h4 {
+    color: #5E7C16;
+    transition: color 0.3s;
+}
+
+.article_element .right_chevron {
     margin-right: 2px;
-    font-size: 50px;
+}
+
+.article_element .right_chevron path {
+    fill: white;
 }
 
 .secondary_article_element .right_chevron {
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-right: 20px;
-    color: black;
-    transition: color 0.3s;
 }
 
-.secondary_article_element:hover .right_chevron {
-    color: #5E7C16;
-    transition: color 0.3s;
+.secondary_article_element .right_chevron path {
+    transition: fill 0.3s;
+}
+
+.secondary_article_element:hover .right_chevron path {
+    fill: #5E7C16;
+    transition: fill 0.3s;
 }
 
 .secondary_article {
@@ -178,4 +197,11 @@ article {
     background-position: center;
 
     box-shadow: inset 0 0 0 10000px rgba(30, 30, 30, 0.6);
+}
+
+#bottom_image {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    align-self: center;
+    width: 15%;
 }
